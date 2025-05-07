@@ -1,0 +1,13 @@
+# Ignore virtual environment
+venv/
+
+# Ignore Python cache
+_pycache_/
+*.pyc
+
+# Ignore large model files
+*.pkl
+
+# Ignore IDE configs
+.vscode/
+.idea/

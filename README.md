@@ -1,12 +1,28 @@
-Twitter Sentiment Analysis
-This project performs sentiment analysis on tweets to classify them as positive, negative, or neutral using machine learning techniques.
+# 🐦 Twitter Sentiment Analysis
 
-It uses natural language processing (NLP) to process raw Twitter data, clean and vectorize text, and apply a trained ML model to predict sentiment. The project includes a web interface where users can input text or tweets and get real-time sentiment predictions.
+A machine learning-based project that analyzes the sentiment of tweets, classifying them as **positive**, **negative**, or **neutral**.  
+This project uses text preprocessing, vectorization, and classification models to deliver accurate sentiment predictions.
 
-🚀 Features
-✅ Pre-trained sentiment analysis model
-✅ Text preprocessing and cleaning pipeline
-✅ Machine learning with TF-IDF vectorization
-✅ Flask web app for live sentiment prediction
-✅ User-friendly interface to test custom text
-✅ Example dataset and training scripts provided
+---
+
+## ✨ Features
+
+✅ Cleaned and preprocessed tweet data  
+✅ Sentiment classification (positive / negative / neutral)  
+✅ Trained machine learning models (e.g., Logistic Regression, Naive Bayes)  
+✅ Web interface to input tweets and see sentiment results (Flask / Django)  
+✅ Visual outputs or performance metrics (optional)
+
+---
+
+## 🏗️ Tech Stack
+
+- **Language:** Python  
+- **ML Libraries:** scikit-learn, pandas, numpy  
+- **Text Processing:** NLTK / spaCy / regex  
+- **Vectorization:** TF-IDF / CountVectorizer  
+- **Web Framework:** Flask or Django  
+- **Model Persistence:** pickle / joblib  
+- **Frontend (optional):** HTML, CSS
+
+---
